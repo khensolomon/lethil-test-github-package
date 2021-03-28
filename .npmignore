@@ -2,4 +2,5 @@ lib/
 test/
 .github/
 
+.npmrc-tmp
 tsconfig.json
