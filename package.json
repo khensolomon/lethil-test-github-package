@@ -11,6 +11,9 @@
     "build": "npm run build:node",
     "build:node": "tsc"
   },
+  "repository": {
+    "url": "git://github.com/khensolomon/lethil-test-github-package.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
