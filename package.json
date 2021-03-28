@@ -1,0 +1,15 @@
+{
+  "name": "lethil-test-github-package",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "node ./test/index",
+    "-prepublish": "npm run build",
+    "build": "npm run build:node",
+    "build:node": "tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}
