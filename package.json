@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "",
   "main": "./dist/index.js",
+  "type": "module",
   "scripts": {
     "tst": "node ./test/local.js",
     "test": "mocha ./test/index.js",
